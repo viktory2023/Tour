@@ -1,0 +1,38 @@
+
+.services {
+    margin-bottom: 54px;
+}
+
+.service {
+    display: flex;
+    padding: 19px 0px;
+}
+
+.service__img {
+    width: 41%;
+    margin-right: 4.5%;
+}
+
+.service__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.service__title {
+    margin-top: 7px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.service__desc {
+    margin-bottom: 18px;
+    line-height: 1.7;
+} 
+
+.service-btn {
+    padding: 17px 38px;
+    margin-top: 0px;
+}

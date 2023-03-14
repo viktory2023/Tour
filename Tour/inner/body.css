@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #001821;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box; /*Чтобы падинги не растягивали блок*/
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.flame_img {
+    display: inline-block;
+}
+
+body, html {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+}
+
+.main-page-wrapper {
+    background: url("../img/1.png") center top no-repeat, url("../img/2.png") center bottom 250px no-repeat;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 773px;
+}
+
+
+.hero__content {
+    margin-bottom: 244px;
+}
+
+.hero__text-section {
+    width: 45%;
+}
+
+.hero__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.top-line {
+    min-height: 412px;
+    background: url(../img/headline.png) center top no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}

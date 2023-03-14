@@ -1,0 +1,31 @@
+
+.section {
+    margin-bottom: 127px;
+}
+
+.section-down {
+    margin-bottom: 73px;
+}
+
+.section__title {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+.inner-section {
+    background: #fff;
+    color: #1A1B1E;
+    padding: 88px 0px;
+}
+
+.inner-section--bg--grey {
+    background: #F4F5F5;
+}
+
+.inner-section__title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
